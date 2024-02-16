@@ -5,6 +5,6 @@ This repository contains the tasks I have completed during my internship at CodS
 
 # Tasks - Web-Based
 
-**Landing Page 
-Portfolio Page
-Calculator **
+- Landing Page  
+- Portfolio Page
+- Calculator 
