@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding-top: 0px;
+	color: white;
+	background-color: transparent;
+	font-family: Verdana;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/milkyway.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: black;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+	padding-top: 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	color: #fff;
+	transition: 0.6s;
+	border-radius: 50px;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+ul li.active a {
+	background-color: white;
+	color: black;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 20px;
+	width: 17px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 20%;
+	letter-spacing: 3px;
+
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #4677ff;
+	color: white;
+	border: none;
+	position: absolute;
+	top: 95%;
+	left: 2%;
+	transform: translate(-50%, -50%);
+}
+
+.fa-youtube {
+	background: red;
+	color: white;
+	border: none;
+	position: absolute;
+	top: 95%;
+	left: 6%;
+	transform: translate(-50%, -50%);
+}
+
+.fa-instagram {
+	background: yellow;
+	color: white;
+	border: none;
+	position: absolute;
+	top: 95%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+.fa-twitter {
+	background: blue;
+	color: white;
+	border: none;
+	position: absolute;
+	top: 95%;
+	left: 14%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: transparent;
+	padding-top: 50px;
+	text-transform: uppercase;
+	font-family: impact;
+	font-size: 50px;
+	left: 100px;
+	background-image: linear-gradient(to right, #ff0000, #ff1700, #ff2e00, #ff4500, #ff5b00, #ff7200, #ff8900, #ffa000, #ffb700, #ffce00, #ffe400, #fffb00, #ecff00, #d5ff00, #beff00, #a7ff00, #91ff00, #7aff00, #63ff00, #4cff00, #35ff00, #1eff00, #08ff00, #00ff0f, #00ff26, #00ff3d, #00ff54, #00ff6b, #00ff81, #00ff98, #00ffaf, #00ffc6, #00ffdd, #00fff4, #00f4ff, #00ddff, #00c6ff, #00afff, #0098ff, #0081ff, #006bff, #0054ff, #003dff, #0026ff, #000fff, #0800ff, #1e00ff, #3500ff, #4c00ff, #6300ff, #7a00ff, #9100ff, #a700ff, #be00ff, #d500ff, #ec00ff, #ff00fb, #ff00e4, #ff00ce, #ff00b7, #ff00a0, #ff0089, #ff0072, #ff005b, #ff0045, #ff002e, #ff0017, #ff0000);
+	background-clip: chrome,edge;
+	-webkit-background-clip: text;
+	animation: animate 20s linear infinite;
+	background-size: 1000%;
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0% 100%;
+	}
+
+	50% {
+		background-position: 100% 0%;
+	}
+
+	100% {
+		background-position: 0% 100%;
+	}
+}
+
+h3 {
+	font-family: Verdana;
+}
+
+.wp-tittle {
+	float: left;
+	width: 300px;
+	padding-top: 5px;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
